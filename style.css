@@ -1,0 +1,649 @@
+/* headersection */
+
+.navbar-brand {
+    margin-left: 70px;
+}
+
+.navbar-nav {
+    margin-left: 250px;
+}
+
+.list {
+    color: gray;
+}
+
+ul {
+    width: 600px;
+}
+
+li {
+    position: relative;
+    padding: 15px 0;
+}
+
+.nav-link {
+    letter-spacing: 0.15em;
+    position: relative;
+}
+
+.nav-link:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    height: 4px;
+    left: 50%;
+    position: absolute;
+    background-image: linear-gradient(to right, #fd5c4c 30%, darkorange 50%);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.nav-link:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+.button {
+    border: 1px solid #00FFFF;
+    border-radius: 30px;
+    padding: 15px 40px;
+    margin-right: 0px;
+    color: #5acece;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-image: linear-gradient(to right, #00FFFF 30%, #7FFFD4 60%);
+    color: white;
+}
+
+
+/* bestsection */
+
+.best {
+    text-align: center;
+}
+
+.for {
+    font-size: 150px;
+}
+
+.ave {
+    font-size: 20px;
+    color: gray;
+}
+
+.explore {
+    border: 1px solid #ff6666;
+    border-radius: 30px;
+    padding: 15px 40px;
+    margin-right: 0px;
+    color: #ffb3b3;
+    font-weight: bold;
+    background: white;
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+.explore:hover {
+    background-image: linear-gradient(to right, #fd5c4c 30%, darkorange 60%);
+    color: white;
+}
+
+.explored {
+    border: 1px solid #00FFFF;
+    border-radius: 30px;
+    padding: 15px 40px;
+    margin-right: 0px;
+    color: white;
+    font-weight: bold;
+    background-image: linear-gradient(45deg, #00cc7a 0%, #00FFFF 100%);
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.explored:hover {
+    color: white;
+}
+
+.log {
+    margin-right: 10px;
+}
+
+.doublebtn {
+    margin-top: 80px;
+}
+
+
+/* socialmedia */
+
+#socialmedia {
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+.keep {
+    text-align: center;
+    font-size: 15px;
+    color: gray;
+}
+
+.media {
+    margin: auto;
+    width: 14%;
+}
+
+.media a {
+    padding: 12px;
+}
+
+
+/* completedesignsection */
+
+#complete {
+    margin-top: 100px;
+    background: #ebebe0;
+    height: 600px;
+}
+
+.good {
+    width: 800px;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 250px;
+    position: absolute;
+}
+
+.easy {
+    color: grey;
+    font-size: 15px;
+}
+
+.toolkit {
+    margin-top: 100px;
+}
+
+.card {
+    margin-top: 10px;
+    background: #ebebe0;
+    border: none;
+}
+
+.card:hover {
+    background: white;
+}
+
+.icon {
+    position: relative;
+    left: 27%;
+    top: 50%;
+}
+
+.see {
+    color: gray;
+    font-size: 12px;
+}
+
+
+/* exclusiveportfolio */
+
+#exclusive {
+    margin-top: 200px;
+}
+
+.port {
+    color: grey;
+}
+
+.showcase {
+    font-size: 40px;
+    line-height: 60px;
+}
+
+.been {
+    color: turquoise;
+}
+
+.strategy {
+    margin-top: 60px;
+    color: grey;
+    margin-left: 80px;
+    font-size: 16px;
+}
+
+
+/*  */
+
+.navlist {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.sakib {
+    margin: 0;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.menu {
+    padding: 0 15px;
+}
+
+
+/* picture */
+
+.orange {
+    height: 400px;
+}
+
+.jiraf {
+    height: 250px;
+    width: 350px;
+}
+
+.tree {
+    margin-top: 20px;
+}
+
+.jug {
+    width: 350px;
+    height: 540px;
+}
+
+.potrait {
+    width: 350px;
+}
+
+.girl {
+    height: 689px;
+}
+
+.sky {
+    width: 350px;
+}
+
+.water {
+    width: 350px;
+}
+
+.melon {
+    height: 395px;
+}
+
+.paper {
+    width: 350px;
+}
+
+.bran {
+    color: grey;
+}
+
+.text {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px 22px;
+}
+
+.color {
+    position: relative;
+    width: 50%;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 35%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.color:hover .hobar {
+    opacity: 0.3;
+}
+
+.color:hover .middle {
+    opacity: 1;
+}
+
+.jiraf {
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+
+/* amazingfeatures */
+
+#amazing {
+    margin-top: 200px;
+}
+
+.features {
+    text-align: center;
+}
+
+.feature {
+    font-size: 50px;
+}
+
+.amaze {
+    color: cyan;
+}
+
+.provide {
+    color: grey;
+}
+
+.science {
+    margin-top: 100px;
+}
+
+.window {
+    text-align: center;
+}
+
+.layout {
+    text-align: center;
+    margin-top: 26px;
+}
+
+.description {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.lucas {
+    color: grey;
+    margin-top: 30px;
+}
+
+.ready {
+    margin-top: 50px;
+}
+
+
+/* togethersection */
+
+#together {
+    margin-top: 100px;
+}
+
+.inner {
+    background: #ffe6f9;
+    border-radius: 50%;
+    width: 550px;
+    height: 550px;
+    position: absolute;
+}
+
+.innerfour {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: relative;
+    top: 30%;
+    right: 5%;
+}
+
+.innerfive {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: relative;
+    top: 75%;
+    left: 65%;
+}
+
+.innerone {
+    background: #ffccf2;
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    position: relative;
+    margin-left: 100px;
+    margin-top: 30px;
+    position: absolute
+}
+
+.cap {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 5%;
+    left: 12%;
+}
+
+.lady {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: 80%;
+}
+
+.innertwo {
+    background: #ffb3ec;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    margin-left: 85px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.innerthree {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 100px;
+}
+
+.meat {
+    color: grey;
+    font-size: 15px;
+}
+
+.optim {
+    color: cyan;
+}
+
+.complete {
+    margin-left: 30px;
+}
+
+.design {
+    margin-top: 40px;
+    font-size: 50px;
+}
+
+.career {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: grey;
+}
+
+
+/* realfeatures */
+
+#real {
+    margin-top: 200px;
+}
+
+.client {
+    text-align: center;
+}
+
+.real {
+    font-size: 50px;
+}
+
+.mabble {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 250px;
+    box-shadow: 1px 1px 10px grey;
+    padding-top: 35px;
+    padding-left: 45px;
+    border-radius: 5px;
+}
+
+.cobb {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 270px;
+    right: 80px;
+}
+
+.noris {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 250px;
+    box-shadow: 1px 1px 10px grey;
+    padding-top: 35px;
+    padding-left: 45px;
+    border-radius: 5px;
+}
+
+.lorem {
+    font-size: 15px;
+    line-height: 35px;
+    color: grey;
+    margin-top: 40px;
+}
+
+.name {
+    font-size: 20px;
+}
+
+.ladies {
+    float: left;
+    width: 98%;
+}
+
+.gents {
+    float: right;
+    width: 98%;
+}
+
+
+/* slidersection */
+
+.brands {
+    width: 50%;
+    opacity: 0.3;
+}
+
+.brands:hover {
+    opacity: 1;
+}
+
+
+/* blogsection */
+
+#blog {
+    margin-top: 150px;
+}
+
+#mainmenu li {
+    display: block;
+    color: grey;
+}
+
+.mainmenu a {
+    text-decoration: none;
+}
+
+.mainmenu a:hover {
+    color: black;
+}
+
+.explain {
+    border-radius: 30px;
+    padding: 15px 40px;
+    margin-right: 0px;
+    color: white;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #fd5c4c 30%, darkorange 60%);
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+
+/* subcribesection */
+
+#subscribe {
+    margin-top: 100px;
+}
+
+.news {
+    text-align: center;
+}
+
+.news p {
+    color: grey;
+    margin-top: 20px;
+}
+
+.input {
+    text-align: center;
+}
+
+.email {
+    margin-top: 40px;
+    height: 65px;
+    width: 60%;
+    border-radius: 40px;
+    padding: 5px 0px;
+    box-shadow: 0px 1px 10px grey;
+}
+
+.me {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/* footersection */
+
+#footer {
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.footerleft {
+    margin-top: 30px;
+}
+
+.Ave {
+    color: cyan;
+}
+
+.midia {
+    margin-bottom: 20px;
+}
+
+.main {
+    margin-bottom: 30px;
+}
+
+.write p {
+    color: grey;
+}
+
+.all {
+    color: grey;
+}
+
+.write p:hover {
+    color: black;
+    cursor: pointer;
+}
